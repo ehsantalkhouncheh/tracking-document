@@ -1,0 +1,9 @@
+tracking_document.setting_tab:
+  route_name: mkt_tracking_document.settings_form
+  title: Settings
+  base_route: marketing-tracking.management
+
+tracking_document.access_setting_tab:
+  route_name: mkt_tracking_document.access_settings_form
+  title: Access Settings
+  base_route: marketing-tracking.management

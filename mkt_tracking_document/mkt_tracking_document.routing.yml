@@ -1,0 +1,23 @@
+mkt_tracking_document.example:
+  path: '/mkt-tracking-document'
+  defaults:
+    _title: 'Kundeninformation'
+    _controller: '\Drupal\mkt_tracking_document\Controller\MktTrackingDocumentController::build'
+  requirements:
+    _permission: 'access content'
+
+mkt_tracking_document.settings_form:
+  path: '/admin/config/system/mkt-tracking-document'
+  defaults:
+    _title: 'mkt_tracking_document settings'
+    _form: 'Drupal\mkt_tracking_document\Form\SettingsForm'
+  requirements:
+    _permission: 'administer tracking documents access configuration'
+
+mkt_tracking_document.access_settings_form:
+  path: '/admin/config/system/mkt-tracking-document/access-settings'
+  defaults:
+    _title: 'mkt_tracking_document access settings'
+    _form: 'Drupal\mkt_tracking_document\Form\AccessSettingsForm'
+  requirements:
+    _permission: 'administer tracking documents access configuration'

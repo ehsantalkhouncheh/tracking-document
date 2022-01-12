@@ -1,0 +1,4 @@
+administer mkt_tracking_document configuration:
+  title: 'Administer mkt_tracking_document configuration'
+  description: 'Optional description.'
+  restrict access: true
